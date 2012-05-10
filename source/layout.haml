@@ -1,0 +1,22 @@
+!!!
+%html
+  %head
+    %title Euruko 2013 Zürich
+
+    %meta{:charset => "utf-8"}
+    %meta{:content => "IE=edge,chrome=1", "http-equiv" => "X-UA-Compatible"}
+
+    %meta{:content => "INDEX,FOLLOW", :name => "robots"}/
+    %meta{:content => "European Ruby conference in Zürich, Switzerland", :name => "description"}/
+    %meta{:content => "euruko, ruby, conference, zurich, zürich, switzerland", :name => "keywords"}/
+
+    %link{:href => "/images/favicon.ico", :rel => "shortcut icon"}/        	
+
+    = stylesheet_link_tag 'site.css'
+    =# javascript_include_tag 'http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js', 'site.js'
+    = yield_content :head
+
+  %body{:class => page_classes}
+  
+    #container
+      = yield

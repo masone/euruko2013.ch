@@ -1,0 +1,4 @@
+h1. http://euruko2013.com
+
+Bases on "Middleman":http://middlemanapp.com
+Deployed to "github pages":http://pages.github.com "using git submodules":http://blog.blindgaenger.net/generate_github_pages_in_a_submodule.html
