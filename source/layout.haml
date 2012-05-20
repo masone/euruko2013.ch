@@ -17,6 +17,9 @@
     = yield_content :head
 
   %body{:class => page_classes}
-  
-    #container
-      = yield
+    #header
+      .content_inner
+        = image_tag('euruko2013.jpg', :id => 'logo', :width => 484, :height => 381)
+    #content
+      .content_inner
+        = yield

@@ -1,16 +1,23 @@
-= image_tag('euruko2013.jpg', :id => 'logo', :width => 484, :height => 381)
-%p
-  We want to host the next <a href="http://euruko.org">EuRuKo</a> in Switzerland, the land of mysterious mountains, dreamy cheese and delicious chocolate.
-%p
-  Therefore we took the liberity to buy this domain and setup this page. We will gladly donate this domain to the community and the winning team.
-%p
-  = link_to 'http://euruko2012.org', 'See you in Amsterdam!'
+.part
+  %p.powpow
+    We want to host the next #{link_to'http://euruko.org', 'EuRuKo'} in Switzerland, the land of #{link_to'http://www.youtube.com/watch?v=jjn2xAfOfzo', 'mysterious mountains'}, #{link_to 'http://www.youtube.com/watch?v=9Uv_SoZuHrQ', 'dreamy cheese'} and #{link_to 'http://www.youtube.com/watch?v=mMPT09lJjcE', 'delicious chocolate'}.
 
-%h1
-  Who is behind this?
+.part
+  %p
+    We're a bunch of swiss Ruby developers who want to give back to the community.
+    This is us being inspired by Railsberry, surprised by that girl and ready to host the event for you in our beautiful country.
 
-%ul
-  %li <a href="http://github.com/geku">Georg Kunz</a>
-  %li <a href="http://github.com/masone">Christian Felder</a>
-  %li <a href="http://github.com/firmasaga">firmasaga</a>
-  %li <a href="http://github.com/phuesler">Patrick Huesler</a>
+  = link_to('http://www.flickr.com/photos/39342275@N02/7164079004/in/photostream', image_tag('swiss-railsberry.jpg', :width => 500, :height => 333, :alt => 'some swiss ruby devs and a random girl at railsberry'))
+
+.part
+  %h2 Supporters
+
+  %p
+    If you see one of us at #{link_to'http://euruko.org', 'EuRuKo in Amsterdam'}, ask for chocolate!
+
+  %ul.supporters
+    - supporters = %w{geku masone phuesler alexisreigel effkay apeiros manufaktor netzpirat mordaroso}
+    - supporters.each do |supporter|
+      %li.supporter
+        = link_to twitter_url(supporter), twitter_image_tag(supporter)
+        %p= link_to twitter_url(supporter), "@#{supporter}"

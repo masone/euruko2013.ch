@@ -68,9 +68,17 @@ helpers do
     attributes << "width='#{options[:width]}'" if options[:width]
     attributes << "height='#{options[:height]}'" if options[:height]
     
-    "<img src='images/#{name}' alt='#{options[:alt] | name}' #{attributes.join(', ')}/>"
+    "<img src='images/#{name}' alt='#{options[:alt] || name}' #{attributes.join(', ')}/>"
   end
-  
+
+  def twitter_image_tag(username)
+    "<img src='https://api.twitter.com/1/users/profile_image?screen_name=#{username}&size=normal' alt='#{username}' width='48' height='48' class='twitter'/>"
+  end
+
+  def twitter_url(username)
+    "http://twitter.com/#{username}"
+  end
+
 end
 
 # Change the CSS directory
