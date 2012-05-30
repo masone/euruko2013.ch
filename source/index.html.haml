@@ -20,8 +20,23 @@
     If you see one of us at #{link_to'http://euruko.org', 'EuRuKo in Amsterdam'}, ask for chocolate!
 
   %ul.supporters
-    - supporters = %w{geku masone phuesler firmasaga yawniek alexisreigel effkay foz jcfischer apeiros manufaktor netzpirat mordaroso lukaseppler usershell pratikmukerji}
+    - supporters = %w{geku masone phuesler firmasaga yawniek alexisreigel effkay foz jcfischer apeiros manufaktor netzpirat mordaroso lukaseppler usershell pratikmukerji simplificator}
     - supporters.each do |supporter|
       %li.supporter
         = link_to twitter_url(supporter), twitter_image_tag(supporter)
         %p= link_to twitter_url(supporter), "@#{supporter}"
+        
+.part
+  %h2 Sponsors
+
+  %p
+    Even some companies announced their support.
+    = link_to twitter_url('eurukozurich'), 'Tweet @eurukozurich'
+    if we can count on you as well.
+
+  %ul.supporters
+    - supporters = %w{localch simplificator}
+    - supporters.each do |supporter|
+      %li.supporter
+        = link_to twitter_url(supporter), twitter_image_tag(supporter)
+        %p= link_to twitter_url(supporter), "@#{supporter}"        
