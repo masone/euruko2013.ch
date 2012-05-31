@@ -16,6 +16,8 @@ Since 1815. Actually, Sweden is the oldest neutral country (1814) in the world, 
 ## Money
 Swiss numbered accounts, banks, tax evation
 
+(Does someone have an image of the infamous EU + CH citizens sign at European airports?)
+
 ## Helvetia
 
 ## Willhelm Tell
