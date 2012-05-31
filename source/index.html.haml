@@ -14,35 +14,33 @@
   = link_to('http://www.flickr.com/photos/39342275@N02/7164079004/in/photostream', image_tag('swiss-railsberry.jpg', :width => 500, :height => 333, :alt => 'some swiss ruby devs and a random girl at railsberry'))
 
 .part
-  %h2 Orga & Supporters
-
+  %h2 Organizers & Supporters
   %p
     If you see one of us at #{link_to'http://euruko.org', 'EuRuKo in Amsterdam'}, ask for chocolate!
 
   %ul.supporters
-    - supporters = %w{geku masone phuesler firmasaga yawniek alexisreigel effkay foz jcfischer apeiros manufaktor netzpirat mordaroso lukaseppler usershell pratikmukerji simplificator}
+    - supporters = %w{geku masone phuesler firmasaga yawniek alexisreigel effkay foz jcfischer apeiros manufaktor netzpirat mordaroso lukaseppler usershell pratikmukerji}
     - supporters.each do |supporter|
       %li.supporter
         = link_to twitter_url(supporter), twitter_image_tag(supporter)
         %p= link_to twitter_url(supporter), "@#{supporter}"
         
 .part
-  %h2 Sponsors
-
+  %h2 Supporting Companies
   %p
     Even some companies announced their support.
     = link_to twitter_url('eurukozurich'), 'Tweet @eurukozurich'
     if we can count on you as well.
 
   %ul.supporters
-    - supporters = %w{localch simplificator}
+    - supporters = %w{localch silp simplificator screenconcept}
     - supporters.each do |supporter|
       %li.supporter
         = link_to twitter_url(supporter), twitter_image_tag(supporter)
         %p= link_to twitter_url(supporter), "@#{supporter}"
   
 .part
-  %h2 City
+  %h2 City of Zurich
   %p
     Zurich is a small and pulsating city located at the tip of a beatiful lake. Just a stone's throw away from the Swiss Alps with its famous snow unicorns.
   
