@@ -10,6 +10,12 @@ Some people say, that Ruby is a Swiss Army Knife -- so let's bring Ruby to the b
 
 Background information about Switzerland.
 
+## Neutrality (™)
+Since 1815. Actually, Sweden is the oldest neutral country (1814) in the world, however, they are no longer neutral.
+
+## Money
+Swiss numbered accounts, banks, tax evation
+
 ## Helvetia
 
 ## Willhelm Tell
@@ -18,7 +24,6 @@ Background information about Switzerland.
 
 ## Plus Ruby
 
-## Neutrality (™)
 
 ## Helvetica
 
