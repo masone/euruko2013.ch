@@ -4,27 +4,21 @@ We are still missing a few humerous punches toward the munich guys. I'm thinking
 Also, a few people I have talked to, have expressed their concerns, that it is going to be too expensive to run EuRuKo in Switzerland. I (phuesler) believe, this won't be the case. Also, the price level of Munich is quite high.
 
 # EuRuKo 2013 - Zurich
-Some people say, that Ruby is a Swiss Army Knife -- so let's bring Ruby to the birthplace of the Swiss Army Knife. These people here are determined to make it happen.
+Switzerland is the country of money, numbered bankaccounts, tax evasion and neutrality.
 
-(Up until this day, we do not know who the woman in the front is)
+## Team
+Let me introduce the our team and supporters. Here on a picture at Railsberry, which happened recently in Krakow. By the way, nobody really knows
 
-Background information about Switzerland.
-
-## Neutrality (™)
-Since 1815. Actually, Sweden is the oldest neutral country (1814) in the world, however, they are no longer neutral.
-
-## Money
-Swiss numbered accounts, banks, tax evation
-
-(Does someone have an image of the infamous EU + CH citizens sign at European airports?)
+And also, we have Mountain Snow Unicorns (™)
 
 ## Helvetia
+Helvetia is our national heroine, in this picture she is taking a break at the river Rhine in the city of Basel.
 
 ## Willhelm Tell
+Our national hero is Willhelm Thell, a true expert with cross-bow and apples. Yes, we are famous for precision and accuracy.
 
 ## Four languages
-
-## Plus Ruby
+We have 4 official languages in our tiny, tiny country
 
 
 ## Helvetica
@@ -33,13 +27,10 @@ Swiss numbered accounts, banks, tax evation
 Parts of it are in Switzerland
 
 ## The hadron collider
+Where they are going to create a black hole and kill us all eventually
 
 ## Pascal
 Niklas Würth
-
-## Rivella
-
-## Cheese
 
 ## Fondue
 
